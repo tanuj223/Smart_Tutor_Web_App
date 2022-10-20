@@ -1,0 +1,11 @@
+.textbox {
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+}
+
+.card:hover {
+    text-decoration: none;
+    text-transform: none;
+}

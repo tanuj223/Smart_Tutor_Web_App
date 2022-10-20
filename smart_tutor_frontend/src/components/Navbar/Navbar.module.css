@@ -1,0 +1,15 @@
+.brand { 
+    color: #6a43a5 !important;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 30px;
+}
+
+.navLink {
+    background-color: #6a43a5;
+    border-radius: 8px;
+    color: white !important;
+    padding: 8px 18px;
+    margin-right: 8 px;
+    font-size: 15px;
+}

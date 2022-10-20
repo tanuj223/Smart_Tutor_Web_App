@@ -1,0 +1,446 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body {
+  overflow-x: hidden !important;
+  background: #6a43a5;
+  /* overflow: hidden */
+}
+#root {
+  height: 100% !important;
+}
+.home {
+  /* background-color: #4c87dd; */
+  background: url('../../smart_tutor_frontend/src/assets/homeBg.png');
+  background-repeat: no-repeat;
+  background-size: 100vw 110vh;
+  min-height: 110vh;
+  margin-top: -10vh;
+  /* padding: 0 10%; */
+  /* clip-path: ellipse(120% 55% at 50% 45%); */
+}
+
+.home-container {
+  padding-left: 10%;
+}
+
+.home .heading {
+  margin-top: 20vh;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 60px;
+  letter-spacing: 2px;
+  /* or 86% */
+  /* text-transform: capitalize; */
+  /* color: #6a43a5; */
+  color: #000;
+}
+.home .sub-heading {
+  width: 90%;
+  color: #000;
+
+  font-family: Mulish;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+}
+
+.home .home-vid {
+  width: 100%;
+  max-height: 100vh;
+  /* margin-top: 10%; */
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 50%;
+}
+
+.home-btn {
+  /* width: 320px; */
+  /* height: 60px; */
+  /* left: 193px; */
+  /* top: 627px; */
+
+  background: #000;
+  border-radius: 5px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 34px;
+  padding: 30px 140px;
+  /* identical to box height */
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+
+  color: #fff;
+}
+/* 
+.home-btn:hover {
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+} */
+
+.gvuOOn {
+  background: rgba(255, 255, 255, 0.9) !important;
+}
+
+.ant-dropdown {
+  background: transparent !important;
+}
+
+.MuiDrawer-paper {
+  background-color: #fff !important;
+}
+
+section {
+  padding: 5% 10%;
+}
+
+.section-1-heading {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 70px;
+  /* or 100% */
+  margin-top: 25%;
+  text-transform: capitalize;
+  /* color: #282828; */
+  color: white;
+}
+
+.section-1-text {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 30px;
+  line-height: 40px;
+  /* color: #28282d; */
+  color: white;
+}
+.section-1-img {
+  width: 80%;
+}
+.section-2-img {
+  width: 100%;
+}
+.section-3-img {
+  width: 100%;
+  margin-left: 10%;
+}
+.section-4-img {
+  width: 95%;
+  margin-left: -10%;
+}
+
+.section-1-vid {
+  width: 100%;
+}
+.section-2-vid {
+  width: 100%;
+  /* margin-left: -20%; */
+}
+.section-3-vid {
+  width: 100%;
+  margin-left: -20%;
+}
+
+.section-2-heading {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 70px;
+  /* or 100% */
+  margin-top: 15%;
+  text-transform: capitalize;
+  /* color: #282828; */
+  color: white;
+}
+
+.section-2-text {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 30px;
+  line-height: 40px;
+  /* color: #28282d; */
+  color: white;
+  width: 85%;
+}
+
+.nav-container {
+  margin: 0 2%;
+  position: relative;
+  /* width: 100%; */
+  height: 10vh;
+  padding: 15px 0;
+  z-index: 500;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.nav-btn {
+  float: right;
+  display: inline-flex !important;
+  font-weight: 700 !important;
+}
+
+.nav-btn a {
+  margin: 0 15px;
+}
+
+.nav-btn a:hover {
+  color: #ffd601 !important;
+}
+
+.nav-logo {
+  width: 90%;
+  color: #ffffff;
+  margin: auto;
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+}
+
+.nav-logo img {
+  width: 30%;
+}
+
+.login-txt {
+  font-weight: 500 !important;
+}
+
+.login-btn {
+  background: #ffffff;
+  border-radius: 5px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800 !important;
+  font-size: 16px;
+  /* margin: 0 15px; */
+  /* line-height: 34px; */
+  /* identical to box height */
+  /* cursor: pointer; */
+  color: #5289d9;
+}
+
+.login-btn:hover {
+  background-color: #eee !important;
+}
+
+.content {
+  position: absolute;
+  top: 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.btn-last {
+  background: linear-gradient(214.04deg, #05beff 2.7%, #485df5 102.74%);
+  box-shadow: 4px 12px 20px rgba(137, 136, 136, 0.25);
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 20px 140px;
+  font-weight: 700;
+}
+
+.footer {
+  /* width: 100vw; */
+  /* background: #4c87dd; */
+  color: #000;
+  border-top: 1px solid #4167f8;
+}
+
+.footer a {
+  color: #000;
+  font-size: 18px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+.credits {
+  margin-top: 5%;
+  font-size: 12px;
+  color: gray;
+}
+
+.desktop-only {
+  display: block !important;
+}
+.mobile-only {
+  display: none !important;
+}
+
+.footer-logo img {
+  margin-top: 1%;
+  width: 50%;
+}
+
+.facebook-icon a:hover {
+  color: #4267b2;
+}
+
+.insta-icon a:hover {
+  color: #8a3ab9;
+}
+
+@media only screen and (max-width: 992px) {
+  .section-1-heading,
+  .section-2-heading {
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+
+  .section-1-text,
+  .section-2-text {
+    font-size: 1.5rem;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+  .home {
+    background:white;
+  }
+
+  .home-container {
+    padding-left: 15px;
+    margin: 0 5%;
+    width: 90%;
+  }
+  .btn-container {
+    text-align: center !important;
+    width: 100%;
+  }
+  .btn-last {
+    padding: 20px 20px;
+    font-size: 1.5rem;
+  }
+
+  .home-btn {
+    padding: 20px 0;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .home .heading {
+    font-size: 36px;
+    line-height: 1.2em;
+    margin-top: 16vh;
+  }
+  .home .sub-heading {
+    font-size: 18px;
+    line-height: 1.2em;
+  }
+  .home .home-vid {
+    top: 50%;
+  }
+
+  .nav-logo img {
+    width: 100%;
+  }
+
+  section {
+    /* min-height: 100vh; */
+    margin: 10% 0;
+  }
+
+  .content {
+    position: relative;
+    top: 0;
+    transform: none;
+  }
+
+  .section-1-heading,
+  .section-2-heading {
+    font-size: 30px;
+    line-height: 1.2em;
+    margin-top: 15%;
+  }
+  .section-1-vid,
+  .section-2-vid,
+  .section-3-vid {
+    width: 140%;
+    margin: 0;
+    margin-left: -20%;
+  }
+
+  .section-1-text,
+  .section-2-text {
+    font-size: 15px;
+    line-height: 1.2em;
+    margin-bottom: 15%;
+  }
+  .section-3-img,
+  .section-4-img {
+    width: 120%;
+    margin: 0;
+    margin-left: -10%;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .desktop-only {
+    display: none !important;
+  }
+  .mobile-only {
+    display: block !important;
+  }
+  .nav-container {
+    margin: 0 5%;
+    text-align: center !important;
+  }
+
+  /* .footer .col-md-3 {
+    text-align: center !important;
+  } */
+  .footer-logo {
+    padding: 0 25%;
+    width: 100%;
+    text-align: left !important;
+    padding-left: 30px;
+  }
+
+  .nav-container button:focus {
+    outline: none;
+  }
+  .nav-l .MuiTypography-body1 {
+    font-size: 20px !important;
+  }
+}
+
+a:hover{
+  text-decoration: none;
+}

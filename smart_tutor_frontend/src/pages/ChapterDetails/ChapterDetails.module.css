@@ -1,0 +1,11 @@
+.flexDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

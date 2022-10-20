@@ -1,0 +1,16 @@
+.header {
+    background-color: blueviolet;
+    min-height: 400px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    width: 200px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.button:hover {
+    color: rgb(255 214 1);
+}
